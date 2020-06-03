@@ -22,7 +22,7 @@ jobs:
      
       # Build React App with yarn  
       - name: Build React App
-        run: npm yarn build 
+        run: npm yarn install 
       
       # Install Surge
       - name: Install Surge
